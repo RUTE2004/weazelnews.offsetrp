@@ -1,1 +1,1 @@
-# weazelnews.offsetrp
+Site dedicado a fins ficticios da empresa de noticias Weazel News no servidor Offset RP

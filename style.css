@@ -3,3 +3,21 @@ body {
   background: transparent;
   font-family: Roboto, sans-serif;
 }
+
+header{
+  background: #111;
+  width: auto;
+  height: 50px;
+  padding: 10px 20px;
+}
+
+.header-logo{
+  width: calc(100px - 50px);
+}
+
+footer{
+  background: #111;
+  width: auto;
+  height: 50px;
+  padding: 10px 20px;
+}

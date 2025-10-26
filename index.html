@@ -87,6 +87,14 @@
         color: #888;
       }
 
+      .pub-text {
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+        color: #888;
+        margin: 20px 0 5px;
+      }
+
       .articles-grid {
         display: grid;
         gap: 20px;
@@ -102,6 +110,18 @@
         display: flex;
         flex-direction: column;
         min-height: 220px;
+      }
+
+      .pub-card {
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .card-top {
+        height: 350px;
+        background-size: cover;
+        background-position: center;
       }
 
       .card-media {
@@ -234,13 +254,23 @@
   <body>
     <header>
       <div class="header-inner">
-        <a class="brand" href="index.html" aria-label="Voltar para a página inicial">
+        <a class="brand" href="index.html">
           <img class="header-logo" src="images/weazel2.png" alt="Weazel News logo">
         </a>
+        <div class="main-nav">
+          <a class="nav-link" href="article1.html">Sobre Nós</a>
+          <a class="nav-link" href="article1.html">Contactos</a>
+          <a class="nav-link" href="article1.html">Publicidade</a>
+          <a class="nav-link" href="article1.html">Estatuto Editorial</a>
+        </div>
       </div>
     </header>
 
     <main class="container">
+      <section class="main-nav">
+        <div class="card-top" style="background-image: url('images/weazel_corredor.png');"></div>
+      </section>
+
       <section class="hero">
         <h2 class="hero-title">Últimas notícias</h2>
         <p class="hero-sub">Fique por dentro de todos acontecimentos.</p>
@@ -281,35 +311,22 @@
         </a>
       </section>
 
+      <section class="pub-nav">
+        <p class="pub-text">Publicidade</p>
+        <div class="pub-card" style="background-image: url('images/bs_interior.png');"></div>
+      </section>
+
       <section class="partners" aria-label="Parceiros Weazel News">
         <h2 class="title">Parceiros Weazel News</h2>
         <div class="partners-list">
           <a class="partner-item" href="article1.html" title="East Customs">
             <img class="partner-img" src="images/eastcustoms_logo.png">
           </a>
-          <a class="partner-item" href="article1.html" title="BurgerShot">
-            <img class="partner-img" src="images/burgershot_logo.png">
-          </a>
-          <a class="partner-item" href="article1.html" title="UwU Café">
-            <img class="partner-img" src="images/uwucafe_logo.png">
-          </a>
-          <a class="partner-item" href="article1.html" title="SOS">
-            <img class="partner-img" src="images/sos_logo.png">
-          </a>
-          <a class="partner-item" href="article1.html" title="Wu-Chang">
-            <img class="partner-img" src="images/wuchang_logo.png">
-          </a>
-          <a class="partner-item" href="article1.html" title="Auto Exotic">
-            <img class="partner-img" src="images/autoexotic_logo.png">
-          </a>
           <a class="partner-item" href="article1.html" title="Beekers Garage">
             <img class="partner-img" src="images/beekers_logo.png">
           </a>
           <a class="partner-item" href="article1.html" title="Benny's Original Motor Works">
             <img class="partner-img" src="images/bennys_logo.png">
-          </a>
-          <a class="partner-item" href="article1.html" title="Angels MC">
-            <img class="partner-img" src="images/angels_logo.png">
           </a>
           <a class="partner-item" href="article1.html" title="Ramiro & Miro">
             <img class="partner-img" src="images/ramiroemiro_logo.png">
